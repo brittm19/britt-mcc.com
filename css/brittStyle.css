@@ -74,7 +74,7 @@ p, span {
 /* INTRO */
 
 .intro {
-	padding: 15em 0 15em 0;
+	padding: 10% 0 0% 0;
 }
 
 
@@ -98,13 +98,14 @@ h2 {
 
 .imageBorder img{
 	width: 100%;
+	margin-bottom: -2px;
 }
 
 /* ABOUT */
 
 .about {
 	background-color: #C2F48C;
-	padding: 15em 0 15em 0;
+	padding: 10% 0 10% 0;
 }
 
 .row {
@@ -143,9 +144,7 @@ h2 {
 
 
 @media only screen and (max-width: 991px) {
-	.about {
-		padding: 10em 0 15em 0;
-	}
+
 	.about h2 {
 		margin-top: .5em;
 	}
@@ -156,14 +155,6 @@ h2 {
 	#logo, .about h2 {
 		font-size: 4em;
 	}
-	.intro {
-		padding: 10em 0 10em 0;
-	}
-
-	.about {
-		padding: 10em 0 10em 0;
-	}
-}
 
 }
 
@@ -171,15 +162,11 @@ h2 {
 	#logo, .about h2 {
 		font-size: 3em;
 	}
-
-	.intro {
-		padding: 1em 0 1em 0;
-	}
-
-	.about {
-		padding: 5em 0 5em 0;
+	.top-nav li {
+		font-size: 1.2em;
 	}
 }
+
 
 /*
 ==============================================
