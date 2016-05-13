@@ -35,8 +35,8 @@
       <ul>
         <li><a href="#home" class="icon-home">Home</a></li>
         <li><a href="#about" class="icon-user">About</a></li>
-        <li><a href="#" class="icon-website">Work</a></li>
-        <li><a href="#" class="icon-email">Contact</a></li>
+        <li><a href="#work" class="icon-website">Work</a></li>
+        <li><a href="#contact" class="icon-email">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -45,7 +45,7 @@
   <div class="row">
     <div class="col-md-12">
       <h2>Hello!</h2>
-      <p>I can design and develop websites.</p>
+      <p>I can design and develop websites</p>
       <p>Currently residing in <span class="font-style">Phoenix, AZ</span></p>
     </div>
   </div>
@@ -65,7 +65,48 @@
     </div>
   </div>
 </section>
+<section class="work" id="work">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Disney</h2>
+        <div class="hover">
+          <a href="projectDisney/index.html" target="_blank"><img src="images/project1.png"></a>
+        </div>
+      <p><strong>Web Development 1 Class Project (2015)</strong> - Final Disney homepage recreation. I chose to recreate <a href="http://disney.com/">Disney's</a> homepage.</p>
+    </div>
+    <div class="col-md-4">
+      <h2>Petstore</h2>
+      <div class="hover">
+        <a href="petStoreResponsive/petStore/home.html" target="_blank"><img src="images/project2.png"></a>
+      </div>
+      <p><strong>Web Development 2 Class Project (2016)</strong>  - Dreamweaver CC website development. I designed the layout and filled in content according to guidelines.</p>
+    </div>
+    <div class="col-md-4">
+      <h2>Bootstrap</h2>
+      <div class="hover">
+        <a href="projectBootstrap/bootstrap.html" target="_blank"><img src="images/project3.png"></a>
+      </div>
+      <p><strong>Web Development 1 Class Project (2015)</strong> - Homepage recreation. I chose to recreate <a href="http://getbootstrap.com/">Bootstrap's</a> homepage.</p>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Reach Me</h2>
+      <p>Feel free to reach out and contact me through social media or e-mail!</p>
+        <div class="btn-group">
+           <a href="mailto:xbrittany@ymail.com" class="btn btn-lg btn-block email icon-email"><span class="hidden-xs">MESSAGE</span></a>
+           <a href="https://twitter.com/britt_mcc" class="btn btn-lg btn-block twitter icon-twitter"><span class="hidden-xs">TWITTER</span></a>
+           <a href="https://www.linkedin.com/in/bmccullough19" class="btn btn-lg btn-block linked icon-linkedin"><span class="hidden-xs">LINKEDIN</span></a>
+           <a href="https://github.com/brittm19" class="btn btn-lg btn-block github icon-github"><span class="hidden-xs">GITHUB</span></a>
+         </div>
+    </div>
+  </div>
+</section>
+<footer>
 
+</footer>
 
 
 
@@ -90,7 +131,7 @@
     <script>
     $(document).ready(function(){
       // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
+      $(".top-nav a").on('click', function(event) {
 
         // Prevent default anchor click behavior
         event.preventDefault();

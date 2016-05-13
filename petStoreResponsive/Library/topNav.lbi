@@ -1,0 +1,13 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><nav id="topNav">
+        	<ul>
+            		<li><a href="../petStore/home.html">Home</a></i>
+                    <li><a href="../petStore/dogs.html">Dogs</a></li>
+                    <li><a href="../petStore/cats.html">Cats</a></li>
+                    <li><a href="../petStore/fish.html">Fish</a></li>
+                    <li><a href="../petStore/birds.html">Birds</a></li>
+                    <li><a href="../petStore/reptiles.html">Reptiles</a></li>
+                    <li><a href="../petStore/smallPets.html">Small Pets</a></li>
+                    <li><a href="../petStore/petGallery.html">Gallery</a></li>
+            </ul>
+            
+       	</nav>

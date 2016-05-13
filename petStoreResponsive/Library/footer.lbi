@@ -1,0 +1,57 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><footer>
+            	<div class="container">            
+                    <nav class="footerLinks">
+                    	<div class="footerColumn">
+                            <h4>Address</h4>
+                            <p>Paws 'n Shop<br>
+                            1321 North 6th Street<br>
+                            Phoenix, AZ 85019</p>
+                      	</div>
+                    </nav>
+                    <nav class="footerLinks">
+                    	<div class="footerColumn">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="../petStore/home.html"><span>H</span>ome</a></li>
+                                <li><a href="../petStore/dogs.html"><span>D</span>ogs</a></li>
+                                <li><a href="../petStore/cats.html"><span>C</span>ats</a></li>
+                                <li><a href="../petStore/fish.html"><span>F</span>ish</a></li>
+                                <li><a href="../petStore/birds.html"><span>B</span>irds</a></li>
+                                <li><a href="../petStore/reptiles.html"><span>R</span>eptiles</a></li>
+                                <li><a href="../petStore/smallPets.html"><span>S</span>mall Pets</a></li>
+                            </ul>
+                  		</div>			         
+                  </nav>
+                   	 <nav class="footerLinks">
+                     	<div class="footerColumn">
+                            <h4>Pet Welfare Resources</h4>
+                            <ul>
+                                <li><a href="http://www.halorescue.org/">Halo Rescue</a></li>
+                                <li><a href="http://www.catado.org">Cat A Do</a></li>
+                                <li><a href="http://awos.petfinder.com/shelters/AZ01.html">Pet Finder</a></li>
+                                <li><a href="http://www.azhumane.org/">Arizona Humane Society</a></li>
+                                <li><a href="https://aawl.org/">Arizona Animal Welfare League</a></li>
+                                <li><a href="http://homefurgood.org/">Home Fur Good</a></li>
+                            </ul>
+                    	  </div>     
+                 	</nav>
+					<nav class="footerLinks">
+                     	<div class="footerColumn">
+                            <h4>Map</h4>
+							<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                            <div style='overflow:hidden;height:200px;width:200px;'>
+                            	<div id='gmap_canvas' style='height:200px;width:200px;'>
+                            </div>
+                            <div>
+								<style>
+                                 #gmap_canvas img{max-width:none!important;background:none!important;border-radius:0;box-shadow:none;}
+                                </style>
+                   			</div>
+							<script type='text/javascript'>
+					function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(33.64029020388457,-112.10570852460938),mapTypeId: google.maps.MapTypeId.				ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(33.64029020388457,-112.10570852460938)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>85019<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+                    		</script>
+                    	</div>     
+                 	</nav>
+           		<p id="copy">Copyright &copy;2016</p> 
+           </div>
+       </footer>

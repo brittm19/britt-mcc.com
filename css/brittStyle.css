@@ -1,4 +1,4 @@
-/* TOP NAV */
+
 body {
 	overflow-x:hidden;
 }
@@ -8,12 +8,27 @@ body {
 	text-align: center;
 }
 
-p, span {
+p {
 	font-family: 'Lora', serif;
 	font-size: 1.5em;
 }
 
-/* NAV */
+a {
+	color:#5CAA07;
+	text-decoration: none !important;
+}
+a:visited {
+	color:#699A33;
+}
+a:hover {
+	color:#B6245B;
+}
+a:active {
+	color:#700029;
+}
+
+
+/* TOP NAV */
 
 .top-nav {
 	background-color: #B6245B;
@@ -25,8 +40,6 @@ p, span {
 .container-fluid {
 	width: 60%;
 }
-
-
 
 .top-nav li {
 	display: inline-block;
@@ -53,13 +66,9 @@ p, span {
   transition: 0.4s;
 }
 
-
 .top-nav a:hover:after {
   width: 100%;
 }
-
-
-
 
 #logo {
 	font-weight: 200;
@@ -95,7 +104,6 @@ h2 {
 	color: #5CAA07;
 }
 
-
 .imageBorder img{
 	width: 100%;
 	margin-bottom: -2px;
@@ -105,7 +113,7 @@ h2 {
 
 .about {
 	background-color: #C2F48C;
-	padding: 10% 0 10% 0;
+	padding: 10% 0 15% 0;
 }
 
 .row {
@@ -114,7 +122,6 @@ h2 {
 }
 
 .about h2 {
-
 	color: #B6245B;
 }
 
@@ -125,9 +132,72 @@ h2 {
 }
 
 
+/* work */
+
+.work {
+	padding: 10% 0 10% 0;
+}
+
+.work h2 {
+	border-bottom: 2px solid #96E73E;
+}
+
+.work img {
+	width: 100%;
+	-webkit-transition:all .4s ease-in-out;
+	transition:all .4s ease-in-out
+
+}
+
+.hover {
+	overflow:hidden;
+}
+.hover:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+
+/* contact */
+
+.contact {
+	padding: 10% 0 10% 0;
+	background-color: #B6245B;
+}
+
+
+.contact h2 {
+	color: #C2F48C;
+}
+
+.contact p {
+	color: #fff;
+}
 
 
 
+.btn {
+	background-color: #C2F48C;
+	color: #921141;
+	font-size: 1.5em;
+	font-weight:500;
+	border: 2px solid #96E73E;
+	padding: 5% 0;
+	border-radius: 0px;
+}
+
+.btn:visited {
+	background-color: #699A33;
+	color: #700029;
+	border: 2px solid #457313;
+}
+
+.btn:hover {
+	background-color: #94DC46;
+	color: #B6245B;
+	border: 2px solid #5AA00E;
+}
 
 
 /* queries */
@@ -136,9 +206,17 @@ h2 {
 		width: 100%;
 	}
 
-  #logo, .about h2 {
+  #logo, h2 {
 		font-size: 5em;
 	}
+}
+
+@media only screen and (max-width: 1217px) {
+
+	h2 {
+		font-size: 4.5em;
+	}
+
 }
 
 
@@ -152,14 +230,14 @@ h2 {
 }
 
 @media only screen and (max-width: 842px) {
-	#logo, .about h2 {
+	#logo, h2 {
 		font-size: 4em;
 	}
 
 }
 
 @media only screen and (max-width: 	684px) {
-	#logo, .about h2 {
+	#logo, h2 {
 		font-size: 3em;
 	}
 	.top-nav li {
